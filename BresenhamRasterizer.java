@@ -11,6 +11,9 @@ class BresenhamRasterizer implements LineRasterizer {
         int dx = Math.abs(p2.x - p1.x);
         int dy = Math.abs(p2.y - p1.y);
 
+        int sx = (p1.x < p2.x) ? 1 : -1;
+        int sy = (p1.y < p2.y) ? 1 : -1;
+
     }
 
 }
