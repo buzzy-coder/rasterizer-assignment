@@ -41,7 +41,8 @@ class BresenhamRasterizer implements LineRasterizer {
         }
     }
 
-    return points.toArray(new Point[0]);
+    return points.toArray(new Point[points.size()]);
+
 }
 
 }
