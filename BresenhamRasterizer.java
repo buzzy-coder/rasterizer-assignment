@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+// Works for all octants, including steep, shallow,
+// horizontal, vertical, and reverse-direction lines.
+
 class BresenhamRasterizer implements LineRasterizer {
     public Point[] rasterize(Point p1, Point p2) {
 
