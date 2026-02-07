@@ -14,6 +14,9 @@ class BresenhamRasterizer implements LineRasterizer {
         int sx = (p1.x < p2.x) ? 1 : -1;
         int sy = (p1.y < p2.y) ? 1 : -1;
 
+        int err = dx - dy;
+
+
     }
 
 }
